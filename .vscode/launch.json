@@ -9,6 +9,13 @@
             "name": "JFrameVentana",
             "request": "launch",
             "mainClass": "JFrameVentana",
+            "projectName": "ProyectoGitHub3_3ceaa74d"
+        },
+        {
+            "type": "java",
+            "name": "JFrameVentana",
+            "request": "launch",
+            "mainClass": "JFrameVentana",
             "projectName": "proyectoInterfaz - final_442ef096"
         },
         {
