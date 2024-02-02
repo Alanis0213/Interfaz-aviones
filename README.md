@@ -15,7 +15,7 @@
 
 ## Información General
 
-Este proyecto implementa un Sistema de Gestión de Librería en Python a travez de modulos utilizando interfaz grafica para la ejecucion de este programa, este sistema muestra diferentes fucniones para administrar los libros, los clientes y las ventas y compras que estos puedan realiar. A través de una interfaz, los usuarios pueden realizar diversas operaciones, como ingresar clientes, registrar libros, realizar ventas y obtener estadísticas sobre las ventas reealizas y clientes
+Este proyecto implementa un Sistema de Resrvacion de vuelos en Java a travez de modulos utilizando interfaz grafica para la ejecucion de este programa, este sistema muestra diferentes fucniones que permiten reegistrar pasajeros y aeropuertos , crear vuelos, entre otras operaciones. A través de una interfaz principalmente podras resrvar un asiento en un vuelo que se encuentro disponible
 
 ## Funcionalidades
 
@@ -41,17 +41,16 @@ Este proyecto implementa un Sistema de Gestión de Librería en Python a travez 
 
     - Realizar un vuelo
     - Mostrar una lista de todas los vuelos realizadas.
-    - Eliminar vuelos.
-    - Actualizar lun vuelo (con restricciones agregadas).
+    - Eliminar vuelos, teniendo en cuenta las restricciones las cuales evitan eliminar un vuelo si en este hay pasajeros reservados.
+    - Actualizar un vuelo, siguiendo las restricciones que se han agregado, las cuales impiden actualizar un vuelo si este tiene pasajeros que han realizado una resrvacion.
 
 
 
 ## Requisitos del Sistema
 
-    - Python 3.x
-    - Consola o entorno compatible con la ejecución de Python.
-    - Extencion prettyTable.
-    - Base de datos SQLite
+    - Java 17.
+    - Consola o entorno compatible con la ejecución de Java.
+    - Base de datos MySQL.
 
 ## Instalación
 1. Clona o descarga el repositorio.
@@ -70,11 +69,11 @@ Este proyecto implementa un Sistema de Gestión de Librería en Python a travez 
 
 3. Salir del Programa:
 
-    Una vez quieras finalizar la ejecucion del programa,puedes cerrar la ventana principal o parar la ejecucion desde tu editor.
+    Una vez quieras finalizar la ejecucion del programa,puedes cerrar la ventana principal, parar la ejecucion desde tu editor e icluso seleccior el boton para salir que se encuentra en el menu de pasajeros.
 
 ## Estructura del Proyecto
 
-El proyecto se organiza en módulos que abordan distintas áreas del sistema, como clientes, libros, ventas y estadísticas. Cada módulo contiene funciones específicas para realizar las operaciones relacionadas con su área correspondiente.
+El proyecto se organiza en módulos que abordan distintas áreas del sistema, como pasajeros, reservas, aeropuertos, vuelos . Cada módulo contiene funciones específicas para realizar las operaciones relacionadas con su área correspondiente.
 
 
 ## Configuración
